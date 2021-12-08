@@ -1,4 +1,3 @@
-
 const mongoose = require('mongoose');
 const uri = 'mongodb+srv://mriojas:Fischl1432@cluster0.m8poh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const connectDB = async () =>{

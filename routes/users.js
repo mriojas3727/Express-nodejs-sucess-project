@@ -11,7 +11,7 @@ const{
 const router = express.Router();
 
 router
-        .route('/')
+        .route('/home')
         .get(getUsers)
         .post(createUser);
 

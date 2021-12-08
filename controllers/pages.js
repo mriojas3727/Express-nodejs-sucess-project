@@ -1,0 +1,5 @@
+const path = require('path');
+exports.showHome = ('/home', (req, res) =>{
+    res.sendFile(path.join(__dirname, '../interface/home.html'))
+});
+

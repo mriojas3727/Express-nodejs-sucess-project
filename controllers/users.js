@@ -1,5 +1,4 @@
-const User = require('../models/user')
-
+const User = require('../models/user');
 exports.getUsers = ('/', (req, res, next) =>{
     res.status(200).json({sucess: true, msg: "Show all users"});
 })
@@ -23,3 +22,4 @@ exports.deleteUser = ('/:id', (req, res) =>{
 })
 
 //module.exports = {deleteUser, createUser, getUsers, getUser, updateUser};
+
